@@ -1,0 +1,23 @@
+.btnDeleteContact {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: darkgray;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDeleteContact:hover {
+    background-color: rgb(23, 121, 173);
+    color: #fff;
+}
+
+.listItems {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    font-size: 38px;
+    margin-bottom: 10px;
+}

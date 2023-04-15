@@ -1,0 +1,20 @@
+.conactFormGroup {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+.input {
+    margin-bottom: 30px;
+    font-size: 30px;
+    max-width: 250px;
+    border: 2px solid gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

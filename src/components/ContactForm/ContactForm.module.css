@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) {
+    .wrapper {
+        display: grid;
+        gap: 30px;
+    }
+
+    .wrapperContacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contactFormBlock {
+    border: 4px solid gainsboro;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: auto;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.conactFormGroup {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+
+    font-size: 3em;
+    line-height: 1;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+
+.input {
+    margin-bottom: 30px;
+    font-size: 30px;
+    border: 2px solid gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media screen and (max-width: 767px) {
+    .input {
+        font-size: 22px;
+    }
+}
+
+.btnAddContact {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: darkgray;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.btnAddContact:hover {
+    background-color: rgb(23, 121,173);
+    color: #fff;
+}

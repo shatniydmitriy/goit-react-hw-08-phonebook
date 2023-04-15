@@ -1,0 +1,38 @@
+.wrapperUserMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .wrapperUserMenu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.userEmail {
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.btnLogout {
+    padding: 5px 25px;
+    margin-left: 11px;
+    height: 42px;
+    color: darkgray;
+    background-color: #fff;
+    font-size: 20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnLogout:hover {
+    background-color: rgb(23, 121, 173);
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {}
